@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Sip Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="SipCalculator.css">
+</head>
+
+<body>
+    <header id="page-header">
+        <div id="head">
+            <h1>Modern SIP Calculator</h1>
+        </div>
+    </header>
+    <main id="page-main">
+        <section id="form-section">
+            <form id="sip-form">
+                <div class="num-input"><label for="initial-investment">Initial Investment</label>
+                    <input class="input-box" type="number" id="initial-investment" name="initial-investment" value="0"
+                        min="0" required>
+                </div>
+                <div class="num-input"><label for="sip-amount">SIP Amount</label>
+                    <input class="input-box" type="number" id="sip-amount" name="sip-amount" value="0" min="0" required>
+                </div>
+                <div class="num-input">
+                    <label for="step-up">Step-up (in %)</label>
+                    <input class="input-box" type="number" id="step-up" name="step-up" min="0" value="0" required>
+                </div>
+                <div class="num-input"><label for="sip-duration">SIP Duration (in years)</label>
+                    <input class="input-box" type="number" id="sip-duration" name="sip-duration" value="5" min="0"
+                        required>
+                </div>
+                <div class="num-input"><label for="expected-returns">Expected Returns (in %)</label>
+                    <input class="input-box" type="number" id="expected-returns" name="expected-returns" value="12"
+                        min="0" required>
+                </div>
+                <div class="num-input"><label for="inflation-rate">Inflation Rate (in %)</label>
+                    <input class="input-box" type="number" id="inflation-rate" name="inflation-rate" value="6" min="0"
+                        required>
+                </div>
+                <section id="portfolio-amount">
+                    <div id="portfolio-amount-div">
+                    <h3>Portfolio Amount</h3>
+                    <p id="portfolio-amount-value">₹ 0</p>
+                </section>
+            </div>
+                <div id="form-buttons-div">
+            
+                   <a class="form-buttons" id="result-button" type="button" href="Modern SIP Calculator Result.html">Full Result</a>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer id="page-footer">
+        <p id="foot-p1" class="foot-p">© Modern sip calculator by SPOG 2025. All rights reserved. Unauthorized use,
+            distribution, or reproduction of any material from this site without explicit permission is prohibited.</p>
+    </footer>
+</body>
+
+</html>
